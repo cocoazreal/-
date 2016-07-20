@@ -1,0 +1,246 @@
+html{
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*overflow-y: scroll;*/
+}
+body{
+	transition:all 0.4s ease;
+	width: 100%;
+}
+h4{
+	position: relative;
+	text-align: center;
+	background-color: #D8D8D8;
+	color: #315982;
+	margin:0;
+	height: 50px;
+	line-height: 50px;
+	letter-spacing: 5px;
+	min-width: 1000px;
+}
+h4 i{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: url('./list.png') no-repeat;
+	background-size: 60%;
+	background-position: center;
+	left: 0px;
+	top: 0px;
+}
+h4 i:hover{
+	cursor: pointer;
+}
+
+.content{
+	width: 95%;
+	min-width: 1000px;
+	margin: 20px auto;
+	
+}
+.users-content,.points-content{
+	display: none;
+}
+
+.title .item{
+	/*display: inline-block;*/
+	/*margin-left: -1px;*/
+	padding: 10px 0px;
+	border: 1px solid #DBDBDB;
+	text-align: center;
+	height: 100%;
+	font-weight: bold;
+}
+.content .item{
+	border: 1px solid #DBDBDB;
+	text-align: center;
+	/*margin-left: -1px;*/
+}
+.content td{
+	padding: 5px;
+}
+.title .item select{
+	width: 90%;
+	height:20px;
+	border: 1px solid #DBDBDB;
+	outline: none;
+}
+.eventId{
+	width: 5%;
+}
+.eventType{
+	width:6%;
+}
+.recommend{
+	width: 6%;
+}
+.preTitle{
+	width: 11%;
+}
+.mainTitle{
+	width: 11%;
+}
+.mainContent{
+	width: 25%;
+}
+.deadline{
+	width: 10%;
+}
+.isAlive{
+	width: 6%;
+}
+.dependence{
+	width:10%;
+}
+.actions{
+	width: 10%;
+}
+.content .btn.addPoint{
+	/*padding: 5px 10px;*/
+}
+.events-content hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.userId{
+	width: 10%;
+}
+.username{
+	width: 10%;
+}
+.password{
+	width: 10%;
+}
+.phonenumber{
+	width: 10%;
+}
+.mamadou{
+	width: 10%;
+}
+.playdou{
+	width: 10%;
+}
+.fromId{
+	width: 10%;
+}
+.toId{
+	width: 10%;
+}
+.toEvent{
+	width: 10%;
+}
+
+.pointId{
+	width: 6%;
+}
+.pointUserId{
+	width: 10%;
+}
+.pointEventId{
+	width: 10%;
+}
+.pointEventTitle{
+	width: 10%;
+}
+.pointTitle{
+	width: 10%;
+}
+.pointContent{
+	width: 20%;
+}
+.pointTime{
+	width: 14%;
+}
+.content button.btn{
+	/*width: 40px;*/
+	/*height: 25px;*/
+	padding: 4px;
+}
+
+.slidebar{
+	position: absolute;
+	width: 220px;
+	height: 100%;
+	left: -220px;
+	top: 0;
+	border-right: 1px solid #DBDBDB;
+}
+#windupbar,#editdoubar,#addPointbar,#editEventbar{
+	display: none;
+	/*visibility: hidden;*/
+	position: fixed;
+	width: 300px;
+	height: 140px;
+	left: 50%;
+	margin-left: -150px;
+	top: 300px;
+	margin-top: -70px;
+	background-color: #fff;
+	border: 3px solid #DBDBDB;
+	border-radius: 10px;
+}
+#editdoubar{
+	/*display:block;*/
+	padding: 10px;
+	height: 280px;
+	margin-top: -140px;
+}
+#addPointbar{
+	width: 500px;
+	margin-left: -250px;
+	min-height: 400px;
+	height: auto;
+	margin-top: -200px;
+	/*visibility: visible;*/
+	padding: 10px;
+}
+#editEventbar{
+	/*visibility: visible;*/
+	padding: 10px;
+	width: 600px;
+	height: 620px;
+	margin-left: -300px;
+	margin-top: -240px;
+}
+#addPointbar textarea{
+	margin-top: 15px;
+}
+#windupbar h5,#editdoubar h5,#addPointbar h5{
+	text-align: center;
+	width: 100%;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#windupbar button{
+	margin-left: 55px;
+}
+#editdoubar button,#addPointbar button{
+	display: block;
+	width: 150px;
+	margin: 0 auto;
+}
+#addPointbar button{
+	margin-top:10px; 
+}
+
+.backup,.backup2,.backup3,.backup4{
+	display: none;
+	/*visibility: hidden;*/
+	position: fixed!important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #DBDBDB;
+	opacity: 0.6;
+}
+
+#preview{
+  width: 263px;
+  height: 100px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #bdbdbd;
+}
